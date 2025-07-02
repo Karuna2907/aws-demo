@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - pip install -r simple%20python/requirements.txt
+      - pip install -r simple python/requirements.txt
   build:
     commands:
       - echo "Running tests..."
@@ -27,4 +27,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: ../simple%20python
+  base-directory: ../simple python
